@@ -383,14 +383,14 @@ a { color: inherit; text-decoration: none; }
   font-style: italic;
   color: var(--linen);
   line-height: 1.35;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0;
   border-left: 2px solid var(--sage);
   padding-left: 2.5rem;
 }
 
 .philosophy-cite {
   display: block;
-  margin-top: 2.5rem;
+  margin-top: 1.25rem;
   padding-left: 2.5rem;
   font-style: normal;
   font-size: 0.75rem;
@@ -400,7 +400,12 @@ a { color: inherit; text-decoration: none; }
 }
 
 .philosophy-body {
-  margin-top: 1.5rem;
+  color: var(--linen-dim);
+  font-size: 1.05rem;
+  line-height: 1.8;
+  padding-left: 0;
+  border-left: none;
+  margin-top: 2.5rem;
 }
 
 /* ── PROCESS ── */
